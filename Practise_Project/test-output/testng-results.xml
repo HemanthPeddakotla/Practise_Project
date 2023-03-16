@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22440" started-at="2023-03-15T11:38:44 IST" finished-at="2023-03-15T11:39:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22440" started-at="2023-03-15T11:38:44 IST" finished-at="2023-03-15T11:39:06 IST">
+      <class name="digitalDownloads.Tc_003">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="launch" is-config="true" duration-ms="14050" started-at="2023-03-15T11:38:44 IST" finished-at="2023-03-15T11:38:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="login" is-config="true" duration-ms="3120" depends-on-groups="launch" started-at="2023-03-15T11:38:58 IST" finished-at="2023-03-15T11:39:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="digi()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="digi" duration-ms="2524" started-at="2023-03-15T11:39:01 IST" finished-at="2023-03-15T11:39:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- digi -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="logout" is-config="true" duration-ms="1969" started-at="2023-03-15T11:39:03 IST" finished-at="2023-03-15T11:39:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="quit" is-config="true" duration-ms="731" depends-on-groups="logout" started-at="2023-03-15T11:39:05 IST" finished-at="2023-03-15T11:39:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- digitalDownloads.Tc_003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
