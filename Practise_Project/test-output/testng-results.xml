@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22440" started-at="2023-03-15T11:38:44 IST" finished-at="2023-03-15T11:39:06 IST">
+  <suite name="Default suite" duration-ms="23217" started-at="2023-03-16T12:36:33 IST" finished-at="2023-03-16T12:36:56 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22440" started-at="2023-03-15T11:38:44 IST" finished-at="2023-03-15T11:39:06 IST">
-      <class name="digitalDownloads.Tc_003">
-        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="launch" is-config="true" duration-ms="14050" started-at="2023-03-15T11:38:44 IST" finished-at="2023-03-15T11:38:58 IST">
+    <test name="Default test" duration-ms="23217" started-at="2023-03-16T12:36:33 IST" finished-at="2023-03-16T12:36:56 IST">
+      <class name="digitalDownloads.Tc_002">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:digitalDownloads.Tc_002@7e2d773b]" name="launch" is-config="true" duration-ms="17977" started-at="2023-03-16T12:36:33 IST" finished-at="2023-03-16T12:36:51 IST">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="login()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="login" is-config="true" duration-ms="3120" depends-on-groups="launch" started-at="2023-03-15T11:38:58 IST" finished-at="2023-03-15T11:39:01 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:digitalDownloads.Tc_002@7e2d773b]" name="login" is-config="true" duration-ms="1781" depends-on-groups="launch" started-at="2023-03-16T12:36:51 IST" finished-at="2023-03-16T12:36:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="digi()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="digi" duration-ms="2524" started-at="2023-03-15T11:39:01 IST" finished-at="2023-03-15T11:39:03 IST">
+        <test-method status="PASS" signature="dig()[pri:0, instance:digitalDownloads.Tc_002@7e2d773b]" name="dig" duration-ms="1661" started-at="2023-03-16T12:36:53 IST" finished-at="2023-03-16T12:36:55 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- digi -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="logout" is-config="true" duration-ms="1969" started-at="2023-03-15T11:39:03 IST" finished-at="2023-03-15T11:39:05 IST">
+        </test-method> <!-- dig -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:digitalDownloads.Tc_002@7e2d773b]" name="logout" is-config="true" duration-ms="953" started-at="2023-03-16T12:36:55 IST" finished-at="2023-03-16T12:36:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:digitalDownloads.Tc_003@467aecef]" name="quit" is-config="true" duration-ms="731" depends-on-groups="logout" started-at="2023-03-15T11:39:05 IST" finished-at="2023-03-15T11:39:06 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:digitalDownloads.Tc_002@7e2d773b]" name="quit" is-config="true" duration-ms="791" depends-on-groups="logout" started-at="2023-03-16T12:36:56 IST" finished-at="2023-03-16T12:36:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- digitalDownloads.Tc_003 -->
+      </class> <!-- digitalDownloads.Tc_002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
